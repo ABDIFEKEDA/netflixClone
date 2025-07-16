@@ -1,0 +1,35 @@
+.footer_outer_container{
+    background-color: #111;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+.footer_inner_container{
+    width: 60%;
+   
+}
+.footer_icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.footer_data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer_data ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    height: 12%;
+
+}
+.footer_data ul li{
+    margin: 5px 0;
+    cursor: pointer;
+}
