@@ -6,7 +6,7 @@ import './Footer.css'; // Assuming you have a CSS file for styling
 const Footer = () => {
   return (
     <div>
-      <di className='footer_outer_container'>
+      <div className='footer_outer_container'>
         <div className='footer_inner_container'>
           <div className='footer_icons'>
             <FacebookIcon className='footer_icon' />
@@ -20,6 +20,8 @@ const Footer = () => {
                   <li>Audio description</li>
                   <li> Invester Relation Ship</li>
                   <li> Legal Notice</li>
+                  <li> <button>services Code</button></li>
+
                 </ul>
              </div>
                 <div>
@@ -46,7 +48,7 @@ const Footer = () => {
             </div>
 
         </div>
-      </di>
+      </div>
     </div>
   )
 }
